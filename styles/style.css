@@ -2,6 +2,15 @@
     box-sizing: border-box;
 }
 
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
 /* shared styles */
 
 .container{
@@ -76,7 +85,7 @@
 }
 
 .banner-price{
-    font-weight: 500px;
+    font-weight: bold;
     font-size: 41px;
     color: #FF136F;
 }
@@ -102,4 +111,50 @@
 .banner-container img{
     width: 402px;
     height: 378px;
+}
+
+/* categories section styles */
+
+.categories{
+    margin-top: 64px;
+}
+
+.categories-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.items{
+    display: flex;
+    align-items: center;
+    gap: 77px;
+    padding: 0px 50px;
+    background: linear-gradient(151.85deg, rgb(255, 156, 53) 14.537%,rgb(255, 208, 25) 84.486%);
+    border-radius: 20px;
+}
+
+.categories-title{
+    font-weight: bolder;
+    font-size: 36px;
+    margin-left: 20px;
+}
+
+.items h4{
+    font-weight: bold;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+
+.items img{
+    width: 120px;
+    height: 120px;
+}
+
+.bag{
+    background: linear-gradient(180.00deg, rgb(255, 88, 155) -0.006%,rgb(255, 19, 111) 99.994%);
+}
+
+.shoes{
+    background: linear-gradient(170.38deg, rgb(66, 137, 255) 15.416%,rgb(63, 7, 248) 74.29%);
 }
