@@ -16,10 +16,10 @@
             <input type="search" placeholder="Search Here....">
             <i class="fa-solid fa-magnifying-glass"></i>
             <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Product</a></li>
-                <li><a href="">About Us</a></li>
-                <li><a href="">Contact Us</a></li> 
+                <li><a href="#">Home</a></li>
+                <li><a href="#products">Product</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#contact-us">Contact Us</a></li> 
             </ul>
         </nav>
 
@@ -56,7 +56,7 @@
 
     <main>
         <section class="bags-shoes">
-            <div class="shoes-title">
+            <div class="shoes-title" id="products">
                 <h3 class="categories-title">Shoes</h3>
                 <p>See All</p>
             </div>
@@ -89,11 +89,11 @@
             </div>
 
             <div class="shoes-title">
-                <h3 class="categories-title">Shoes</h3>
-                <p>See All</p>
+                <h3 class="backpack-title">Backpack</h3>
+                <p class="see-all">See All</p>
             </div>
-            <div class="shoes-container">
-                <div class="shoes-details">
+            <div class="shoes-container bags-container">
+                <div class="shoes-details bags-details">
                     <img style="height: 280px; width: 290px;" src="images/images/bags/bag-1.png" alt="">
                     <h3>Ison Backpack</h3>
                     <p>Amet minim mollit non deserunt ullamco<br>est sit aliqua dolor do amet sint. </p>
@@ -121,8 +121,13 @@
         </section>
     </main>
 
-    <footer>
-
+    <footer id="contact-us">
+        <h2>LET'S STAY IN TOUCH</h2>
+        <p>Get updates on sales specials and more</p>
+        <div>
+            <input type="email" placeholder="Enter Your Email">
+            <button class="banner-btn footer-btn">Send</button>
+        </div>
     </footer>
 </body>
 </html>
