@@ -158,3 +158,65 @@
 .shoes{
     background: linear-gradient(170.38deg, rgb(66, 137, 255) 15.416%,rgb(63, 7, 248) 74.29%);
 }
+
+/* bags & shoes section styles */
+
+.shoes-title{
+    display: flex;
+    justify-content: space-around;
+    gap: 435px;
+    align-items: center;
+    margin-bottom: -130px;
+    padding-top: 30px;
+}
+
+.shoes-title p{
+    margin-right: 25px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #FF9D00;
+}
+
+.bags-shoes{
+    background: rgb(244, 244, 244);
+    margin-top: 52px;
+}
+
+.shoes-container{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    text-align: center;
+    padding: 124px 156px;
+}
+
+.shoes-details img{
+    width: 336px;
+    height: 202px;
+}
+
+.shoes-details{
+    background-color: #FFFFFF;
+    padding: 24px 26.5px;
+    border-radius: 20px;
+}
+
+.shoes-details h3{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.shoes-details p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #4E4E4E;
+}
+
+.shoes-details span{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.shoes-btn{
+    background: #000000;
+}
